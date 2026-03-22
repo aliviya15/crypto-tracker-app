@@ -41,7 +41,7 @@ https://api.coingecko.com/api/v3/coins/{coin_name}
 
 * HTML5
 * CSS3
-* JavaScript (ES6)
+* JavaScript 
 * Fetch API
 
 ---
