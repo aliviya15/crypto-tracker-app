@@ -1,4 +1,4 @@
-# 🚀 Crypto & Stock Tracker Web App
+#  Crypto & Stock Tracker Web App
 
 ## 🔰 Project Overview
 
@@ -6,7 +6,7 @@ The Crypto & Stock Tracker Web App is a user-friendly web application that allow
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 The main objective of this project is to:
 
@@ -16,9 +16,7 @@ The main objective of this project is to:
 
 ---
 
-## 🌐 API Used
-
-* **CoinGecko API** (for cryptocurrency data)
+##  API Used
 
 Example API Endpoint:
 https://api.coingecko.com/api/v3/coins/{coin_name}
@@ -35,7 +33,7 @@ https://api.coingecko.com/api/v3/coins/{coin_name}
 * ❤️ Add to favorites (planned)
 * 🌙 Dark Mode / Light Mode (planned)
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -44,7 +42,7 @@ https://api.coingecko.com/api/v3/coins/{coin_name}
 * JavaScript 
 * Fetch API
 
----
+
 
 ## ⚙️ How It Works
 
@@ -53,9 +51,9 @@ https://api.coingecko.com/api/v3/coins/{coin_name}
 3. The API returns real-time data
 4. The app dynamically displays the data on the screen
 
----
 
-## 📂 Project Structure
+
+##  Project Structure
 
 crypto-tracker-app/
 │
@@ -66,19 +64,12 @@ crypto-tracker-app/
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 1. Clone or download the repository
 2. Open the folder
 3. Open `index.html` in your browser
 4. Enter a coin name (e.g., bitcoin)
-
----
-
-## 📅 Project Status
-
-✅ Milestone 1 Completed – Planning & Setup
-🔄 Milestone 2 – API Integration (In Progress)
 
 ---
 
@@ -97,7 +88,7 @@ This project combines finance and web development to create a practical applicat
 
 ---
 
-## 👨‍💻 Author
+
 
 **Aliviya**
  Crypto & Finance Web App 🚀
