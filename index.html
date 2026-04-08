@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CryptoTrack</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+
+  <div class="container">
+    <header>
+      <div class="logo">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">CRYPTO<span class="accent">TRACK</span></span>
+      </div>
+      <p class="tagline">Real-time prices · Powered by CoinGecko</p>
+    </header>
+
+    <div class="search-bar">
+      <input type="text" id="coinInput" placeholder="Search coin (e.g. bitcoin, ethereum...)" autocomplete="off" />
+      <button id="searchBtn">SEARCH</button>
+    </div>
+
+    <div class="loader" id="loader">
+      <div class="spinner"></div>
+      <span>Fetching data...</span>
+    </div>
+
+    <div class="error-box" id="errorBox"></div>
+
+    <div class="card" id="card">
+      <div class="card-header">
+        <img id="coinIcon" src="" alt="" />
+        <div>
+          <h2 id="coinName">—</h2>
+          <span id="coinSymbol" class="symbol">—</span>
+        </div>
+        <div class="rank-badge" id="rankBadge"></div>
+      </div>
+
+      <div class="price-block">
+        <div class="price" id="coinPrice">$—</div>
+        <div class="change" id="priceChange">—</div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat">
+          <div class="stat-label">Market Cap</div>
+          <div class="stat-value" id="marketCap">—</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">24h Volume</div>
+          <div class="stat-value" id="volume">—</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">24h High</div>
+          <div class="stat-value" id="high24">—</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">24h Low</div>
+          <div class="stat-value" id="low24">—</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="trending-section" id="trendingSection">
+      <h3 class="section-title">⚡ Trending</h3>
+      <div class="trending-grid" id="trendingGrid"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
